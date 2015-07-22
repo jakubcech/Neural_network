@@ -14,6 +14,7 @@
     <ProjectGuid>{956DA970-6F0C-4545-83BB-1C36A008101B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SpikingNeuralNet</RootNamespace>
+    <ProjectName>Backprop Neural Net</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -83,6 +84,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="trainingData.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Net.h" />
